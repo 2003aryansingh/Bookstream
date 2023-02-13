@@ -13,6 +13,7 @@ body{
     font-family: 'Urbanist', sans-serif;
     background: #FFFFFF;
     opacity: 0.9;
+    /* overflow: hidden; */
 }
 
 
@@ -239,8 +240,48 @@ header h1{
     justify-content: flex-start;
     align-items: center;
     width: 100%;
-    height: 90%;
+    height: 350px;
+    /* padding: 20px 0px; */
+    overflow-y: auto;
     background-color: #E7EFFF;
     border-radius: 15px;
     /* border: 2px solid black; */
 }
+
+table.blueTable {
+    width: 95%;
+    height: 90%;
+    text-align: left;
+    position: relative;
+    top: 10px;
+    /* border: 2px solid black; */
+    /* overflow-y: auto; */
+    /* border-collapse: collapse; */
+  }
+
+  table.blueTable td, table.blueTable th {
+    padding: 4px 20px;
+    /* font-weight: 600; */
+    /* border: 2px solid black; */
+  }
+
+  table.blueTable th{
+    font-weight: 400;
+  }
+
+  table.blueTable tbody td {
+    font-size: 17px;
+  }
+
+  table.blueTable thead th {
+    font-size: 25px;
+    position: sticky;
+    font-weight: bold;
+  }
+  table.blueTable tfoot td {
+    font-size: 20px;
+  }
+
+  .tab-head{
+    position: sticky;
+  }
